@@ -42,6 +42,7 @@ for epoch in range(10):
     output = nn.feedforward(data)
     nn.backward(data, labels, learning_rate)
 
+
 # Print last calculated values
 print("Last output:")
 print(output)
